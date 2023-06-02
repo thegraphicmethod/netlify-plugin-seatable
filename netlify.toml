@@ -8,8 +8,9 @@
 # Local path to the plugin.
 package = "."
   # Plugin configuration
-  #  [plugins.inputs]
-  #  foo = "bar"
+  [plugins.inputs]
+  SEATABLE_TABLE_NAME = "Table1,Table2"
+  DATA_FOLDER = "assets/data"
 
 [build]
 # Dummy build command

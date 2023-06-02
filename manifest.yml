@@ -1,5 +1,13 @@
 name: 'netlify-plugin-{{name}}'
-inputs: []
+inputs: 
+  - name: SEATABLE_TABLE_NAME
+    description: The name of the table to be readed from the Seatable Base
+    required: true
+  - name: DATA_FOLDER
+    description: The folder where the data will be stored relative to the root of the project 
+    default: assets/data
+    required: false
+  
 # Example inputs:
 #  - name: example
 #    description: Example description
