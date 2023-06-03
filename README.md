@@ -1,4 +1,6 @@
-Netlify Build plugin seatable - Downloads and save a seatable database as json file.
+Netlify Build plugin seatable - Downloads and save a seatable database as json file. 
+Seatable is nocode database with multiple features like forms, automations, api, etc. https://seatable.io/ With this plugin you can use seatable as a headless cms or a database for your static site. JAMstack style!
+
 By runing this plugin a json file will be downloaded from a seatable database and saved in the specified folder.
 
 The json file is saved before building the site so it can be used in the build process for instance when generating a static site with NUXT.
