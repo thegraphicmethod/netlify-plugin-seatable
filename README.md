@@ -6,6 +6,7 @@ Please notice that this plugin is not officialy supported by seatable.
 The json file is saved before building the site so it can be used in the build process for instance when generating a static site with NUXT.
 The json file is not commited to the repository, it is only available during the build process.
 
+THIS PLUGIN WILL OVERWRITE THE FILE IF IT ALREADY EXISTS.
 
 # Install
 
